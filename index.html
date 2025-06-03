@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Navin Gyawali</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <a href="#" class="logo"> नविन ज्ञवाली </a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class='bx bx-menu'></i></label>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Navin Gyawali</h1>
+            <h4>And I'm passionate about <span class="text"></span></h4>
+            <div class="home-sci">
+                <a href="https://github.com/navin123456789" target="_blank" style="--i:7" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/navin-gyawali-2305b4236/" target="_blank" style="--i:8" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/smart6197/" target="_blank" style="--i:10" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="assets/resume/MY.pdf" download class="btn" aria-label="Download CV"><i class='bx bx-download'></i> Download CV</a>
+        </div>
+        <!-- Home Image
+        <div class="img">
+            <img src="images/jerry.png" alt="Profile Picture of Navin Gyawali" class="abt-res">
+        </div>
+     -->
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/jerry.png" alt="About Picture" class="abt-res">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>Passionate and motivated AI enthusiast with a strong interest in Data Science,Machine Learning and Deep Learning. Committed to building a solid foundation through hands-on projects, continuous learning, and exploring real-world applications of AI to drive meaningful impact.</p>
+            <a href="#about-details" class="abtbtn-box">Read More</a>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Skills" class="reveal">
+        <h2 class="subtitle">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <!-- Skills will be added dynamically with JavaScript -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- Updated Projects Section with professional and beautiful design -->
+    <section class="prj" id="projects">
+        <div class="featured-projects-box">
+            <h2>My <span>Projects</span></h2>
+            <div class="separator"></div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/animal_qna.png" alt="Project 1" class="project-image">
+                    <p></p>
+                    <h3>AniCare</h3>
+                    <p>"AniCare" — 'Animal' + 'Care', symbolizing an AI-powered system designed to detect animals and deliver timely remedy suggestions through an integrated chatbot.</p>
+                    <a href="https://github.com/navin123456789/Animal-Detection-and-Remedy-System-along-with-ChatBot" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/qa.png" alt="Project 2" class="project-image">
+                     <p></p>
+
+                    <h3>Gyan Path(ज्ञान पथ)</h3>
+                    <p>"GyanPath" — a fusion of 'Gyan' (knowledge) and 'Path' (pathway), symbolizing a RAG-based chatbot that serves as a guided pathway to the timeless wisdom of the Bhagavad Gita.</p>
+                    <a href="https://github.com/navin123456789/Bhagavad_Geeta_QnA_using_RAG" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/cart.png" alt="Project 3" class="project-image">
+                    <h3>Cartoonify</h3>
+                    <p>"Cartoonify", representing an Autoencoder architecture,that showcases the application of deep learning in artistic image transformation, offering a creative intersection of computer vision and visual storytelling.</p>
+                    <a href="https://github.com/navin123456789/Image_Cartoonize" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/xadagai.png" alt="Project 4" class="project-image">
+                    <p></p>
+                    <h3>Animal Detection for Social Security</h3>
+                    <p>Developed model using YOLO v8n and custom datasets to accurately identify ten animal classes for applications like wildlife conservation and livestock monitoring. The system was deployed on CCTV cameras with real-time alerts sent via SMS to relevant authorities, enhancing security and timely response.</p>
+                    <a href="https://github.com/navin123456789/YOLO" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/nepal_weather.png" alt="Project 5" class="project-image">
+                    <p></p>
+                    <h3>Nepal's Weather Data Analysis</h3>
+                    <p>Analyzed district-wise climate data (1981–2019) for Nepal using data mining and machine learning techniques. Applied K-Means clustering to group districts by weather patterns, performed Linear Regression for rainfall prediction, and utilized GeoPandas for geospatial visualization of extreme weather regions.</p>
+                    <a href="https://github.com/navin123456789/Nepal_Weather_Dataset" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/kalimati.png" alt="Project 6" class="project-image">
+                    <p></p>
+                    <h3>Kalimati Tarkari WebScrape and EDA</h3>
+                    <p>Automated system designed to extract vegetable price data from online sources using web scraping, followed by exploratory data analysis to reveal pricing trends and patterns. This project leverages Python’s BeautifulSoup library and visualization techniques to deliver valuable market insights for stakeholders.</p>
+                    <a href="https://github.com/navin123456789/Kalimati_Tarkari-Webscrape-and-EDA" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="certificates-box">
+            <h2>Licenses & <span>Certifications</span></h2>
+            <div class="separator"></div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <img src="images/figma.png" alt="Certificate 1" class="certificate-image">
+                    <h3>Figma</h3>
+                    <p>Gained hands-on experience in UI/UX design and learned to create intuitive and visually engaging designs.Grateful to the organizers for providing such an enriching learning experience and equipping us with practical skills in design tools.</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="images/Github certificate_page-0001.jpg" alt="Certificate 2" class="certificate-image">
+                    <h3>Github</h3>
+                    <p>Thrilled to have earned my Git and GitHub Certification, showcasing my proficiency in version control and collaborative coding practices!</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="images/Data_Analysis_Certificate.png" alt="Certificate 3" class="certificate-image">
+                    <h3>Census Data Analysis</h3>
+                    <p>Proud to have earned a Certification in Election Data Analysis, highlighting my skills in analyzing and interpreting election-related data to uncover trends, patterns, and actionable insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community and Volunteering Section -->
+    <section class="community" id="community">
+        <div class="community-box">
+            <h2>Community & <span>Volunteering</span></h2>
+            <div class="separator"></div>
+            <div class="community-grid">
+                <div class="community-card">
+                    <img src="images/AI_for_Social_Impact.JPG" alt="Community Event 1" class="community-image">
+                    <h3>AI for Social Impact</h3>
+                    <p>I had the privilege of volunteering at the “AI for Social Impact” workshop, jointly organized by Kathmandu University and the University Grants Commission of Nepal. The experience provided valuable insights into how artificial intelligence can bridge academia, industry, and government to foster meaningful societal advancements.</p>
+                </div>
+               
+                <div class="community-card">
+                    <img src="images/AI_Workshop.png" alt="Community Event 3" class="community-image">
+                    <h3>AI Workshop</h3>
+                    <p>Facilitator at an AI workshop, supporting participants in understanding core AI concepts, machine learning models, and practical applications. Assisted with hands-on exercises, led discussions, and managed event logistics to ensure an effective and engaging learning experience.</p>
+                </div>
+                 <div class="community-card">
+                    <img src="images/AI_Meet_Volunteer.JPG" alt="Community Event 2" class="community-image">
+                    <h3>AI Meet</h3>
+                    <p>I had the privilege of volunteering at AIMEET 2023, organized by the Kathmandu University Artificial Intelligence Club. The event was a valuable platform that brought together innovators, industry experts, and AI enthusiasts to explore emerging opportunities and advancements in artificial intelligence.</p>
+                </div>
+                <div class="community-card">
+                    <img src="images/hackathon.jpg" alt="Community Event 2" class="community-image">
+                    <h3>AI Crusade(Hackathon)</h3>
+                    <p>Built a voice-driven job search webapp using speech-to-text and text-to-speech APIs, a RAG-based system for contextual queries, and real-time web scraping for dynamic data updates.
+                     Key Learnings: Enhanced skills in rapid prototyping, teamwork, API integration, real-time data handling, and applying advanced NLP techniques under tight deadlines.</p>
+                </div>
+                <div class="community-card">
+                    <img src="images/ppt.jpg" alt="Community Event 2" class="community-image">
+                    <h3>Poster Presentation</h3>
+                    <p>Presented a poster on music genre classification using Graph Attention Networks and Wav2Vec, gaining valuable experience in explaining advanced deep learning concepts and engaging with technical discussions during the seminar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contacts" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i>navingyawali788@gmail.com</li>
+                <!-- <li><i class='bx bxs-phone'></i>+977 9748809689</li> -->
+            </div>
+            
+        </div>
+        <div class="last-text">
+            <p>&copy; 2025 by Navin Gyawali | All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <!-- Go to top button -->
+    <a href="#" class="top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
