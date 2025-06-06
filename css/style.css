@@ -59,6 +59,13 @@ body {
     font-weight: 600;
 }
 
+.logo:hover {
+    color: #00abf0; /* Change to your desired hover color */
+    font-family: 'Poppins', sans-serif; /* Change to your desired font */
+    font-size: 3rem; /* Increase font size on hover */
+    transition: color 0.3s ease, font-family 0.3s ease, font-size 0.3s ease;
+}
+
 .navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -304,6 +311,7 @@ section {
     color: var(--main-color);
 }
 
+/* Restore original styling for the skills section */
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
